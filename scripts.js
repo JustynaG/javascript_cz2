@@ -23,5 +23,20 @@ var value3 = getTriangleArea(87, -15);
 console.log(value3);
 
 
+// Zadanie 9.2 Tablice
+
+var fameleNames = [ 'Maria', 'Maja', 'Małgosia', 'Magda' , 'Milena'];
+var maleNames = [ 'Krzyś', 'Kuba', 'Kacper', 'Konrad', 'Karol']
+
+var allNames = fameleNames.concat(fameleNames, maleNames);
+console.log(allNames);
+
+var newName = 'Marian'
+
+	if (allNames.indexOf(newName) === -1){
+		console.log(allNames.push('Marian'));
+	}
+
+
 
 
