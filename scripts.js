@@ -54,7 +54,20 @@ console.log(halfSentence);
 
 
 
+// Zadanie 9.4 Pętle
 
+var drawTree = 5;
+
+	for(var i = 1; i <= drawTree; i++)
+	{
+		var star = '';
+
+		for(j=1; j<=(i+1-1); j++){
+		star += '*';
+		}
+
+		console.log(star);
+	}
 
 
 
