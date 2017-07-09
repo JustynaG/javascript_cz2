@@ -58,11 +58,11 @@ console.log(halfSentence);
 
 var drawTree = 5;
 
-for(var i=1; i<=drawTree; i++){
+for (var i = 1; i <= drawTree; i++) {
 
 var star = '';
 
-	for(j=1; j<=(i+1-1); j++){
+	for (j = 1; j <= (i + 1 - 1); j++) {
 	star += '*';
 	}
 
