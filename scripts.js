@@ -41,33 +41,46 @@ var newName = 'Marian'
 
 // Zadanie 9.3 Łańcuchy znaków
 
-var text = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period.';
+var text = 'bleble is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period.';
+
 var dinosaur = 'triceratops';
+
 var dinosaurUpperCase = dinosaur.toUpperCase();
 
-var textDinosaur = text.replace('Velociraptor', dinosaurUpperCase);
+var splitDinosaur = text.split(' ', 1);
 
-console.log(textDinosaur.length/2);
+var textDinosaur = text.replace(splitDinosaur, dinosaurUpperCase);
 
-var halfSentence = textDinosaur.slice(0,72);
+var halfSentence = textDinosaur.slice(0,textDinosaur.length/2);
+
 console.log(halfSentence);
 
 
-
+/*
 // Zadanie 9.4 Pętle
 
 var drawTree = 5;
 
-	for(var i = 1; i <= drawTree; i++)
-	{
-		var star = '';
+for (var i = 1; i <= drawTree; i++) {
 
-		for(j=1; j<=(i+1-1); j++){
-		star += '*';
-		}
+var star = '';
 
-		console.log(star);
+	for (j = 1; j <= (i + 1 - 1); j++) {
+	star += '*';
 	}
 
+	console.log(star);
+}
 
+
+// Zadanie 9.5 DOM
+
+
+var buttonClass = document.getElementsByClassName('button');
+
+for (var i = 0; i <= buttonClass.length; i++) {
+	var textButton = buttonClass[i].innerText;
+	alert(textButton);
+}
+*/
 
