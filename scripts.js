@@ -1,4 +1,5 @@
-/*// Zadanie 9.1 Funkcje
+// Zadanie 9.1 Funkcje
+
 function getTriangleArea(a, h) {
 		
 	
@@ -62,13 +63,10 @@ console.log(halfSentence);
 var drawTree = 5;
 
 for (var i = 1; i <= drawTree; i++) {
-
-var star = '';
-
+	var star = '';
 	for (j = 1; j <= (i + 1 - 1); j++) {
-	star += '*';
+		star += '*';
 	}
-
 	console.log(star);
 }
 
@@ -82,8 +80,8 @@ for (var i = 0; i <= buttonClass.length; i++) {
 	var textButton = buttonClass[i].innerText;
 	alert(textButton);
 }
-*/
 
+/*
 // Zadanie 9.6 Eventy
 
 
@@ -96,6 +94,6 @@ add.addEventListener('click', function() {
 	list.appendChild(element);
 }); 
 
-
+*/
 
 
