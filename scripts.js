@@ -1,4 +1,4 @@
-// Zadanie 9.1 Funkcje
+/*// Zadanie 9.1 Funkcje
 function getTriangleArea(a, h) {
 		
 	
@@ -56,7 +56,7 @@ var halfSentence = textDinosaur.slice(0,textDinosaur.length/2);
 console.log(halfSentence);
 
 
-/*
+
 // Zadanie 9.4 Pętle
 
 var drawTree = 5;
@@ -83,4 +83,19 @@ for (var i = 0; i <= buttonClass.length; i++) {
 	alert(textButton);
 }
 */
+
+// Zadanie 9.6 Eventy
+
+
+var list = document.getElementById('list');
+var add = document.getElementById('addElem');
+
+add.addEventListener('click', function() {
+	var element = document.createElement('li');
+	element.innerHTML = 'item ' + length++;
+	list.appendChild(element);
+}); 
+
+
+
 
