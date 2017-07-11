@@ -70,18 +70,6 @@ var star = '';
 }
 
 
-// Zadanie 9.5 DOM
-
-
-var buttonClass = document.getElementsByClassName('button');
-
-for (var i = 0; i <= buttonClass.length; i++) {
-	var textButton = buttonClass[i].innerText;
-	alert(textButton);
-}
-
-
-	
 
 
  
