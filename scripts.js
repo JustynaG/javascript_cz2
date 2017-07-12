@@ -61,12 +61,11 @@ console.log(halfSentence);
 // Zadanie 9.4 Pętle
 
 var drawTree = 5;
-
 for (var i = 1; i <= drawTree; i++) {
 	var star = '';
-	for (j = 1; j <= (i + 1 - 1); j++) {
-		star += '*';
-	}
+		for (j = 1; j <= (i + 1 - 1); j++) {
+			star += '*';
+		}
 	console.log(star);
 }
 
@@ -81,7 +80,7 @@ for (var i = 0; i <= buttonClass.length; i++) {
 	alert(textButton);
 }
 
-/*
+
 // Zadanie 9.6 Eventy
 
 
@@ -90,10 +89,10 @@ var add = document.getElementById('addElem');
 
 add.addEventListener('click', function() {
 	var element = document.createElement('li');
-	element.innerHTML = 'item ' + length++;
+	element.innerHTML = 'item ' + (document.getElementsByTagName('li').length ++);
 	list.appendChild(element);
 }); 
 
-*/
+
 
 
