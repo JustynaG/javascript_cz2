@@ -1,4 +1,4 @@
-// Zadanie 9.1 Funkcje
+/*// Zadanie 9.1 Funkcje
 
 function getTriangleArea(a, h) {
 		
@@ -82,14 +82,14 @@ for (var i = 0; i <= buttonClass.length; i++) {
 
 
 // Zadanie 9.6 Eventy
-
+*/
 
 var list = document.getElementById('list');
 var add = document.getElementById('addElem');
 
 add.addEventListener('click', function() {
 	var element = document.createElement('li');
-	element.innerHTML = 'item ' + (document.getElementsByTagName('li').length ++);
+	element.innerHTML = 'item ' + (document.getElementsByTagName('li').length);
 	list.appendChild(element);
 }); 
 
